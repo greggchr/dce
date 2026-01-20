@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirection aléatoire</title>
+</head>
+<body>
+<script>
+  const links = [
+    "https://forms.gle/mHphWHA4w1T95etT7",
+    "https://forms.gle/RNMnjrvzD5essRRx5",
+    "https://forms.gle/RP1vyMwQ5SPQCTbE8"
+  ];
+
+  const randomLink = links[Math.floor(Math.random() * links.length)];
+  window.location.replace(randomLink);
+</script>
+</body>
+</html>
